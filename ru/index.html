@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Поддержка · Andén</title>
+<link rel="icon" href="../icon.png">
+<style>
+:root{--bg:#fff;--fg:#14171f;--muted:#5d6475;--card:#f4f5f8;--accent:#d9152c;--line:#e3e5ea}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1118;--fg:#eef0f5;--muted:#9aa1b2;--card:#181c26;--accent:#ff4d5e;--line:#262b38}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+header img{width:64px;height:64px;border-radius:15px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+h1{font-size:32px;line-height:1.15;margin:0}
+h2{font-size:21px;margin:36px 0 10px}
+p{margin:0 0 12px}
+.tagline{color:var(--muted);margin:0 0 20px}
+nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 28px;font-size:15px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.langs{color:var(--muted)}
+.langs a,.langs span{margin-right:12px}
+.langs span{color:var(--fg);font-weight:600}
+details{background:var(--card);border-radius:14px;padding:14px 18px;margin:0 0 10px}
+summary{font-weight:600;cursor:pointer}
+details p{margin:10px 0 0;color:var(--muted)}
+.note{color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
+</style>
+</head>
+<body>
+<main>
+<header><img src="../icon.png" alt=""><h1>Andén</h1></header>
+<p class="tagline">Схема метро Мадрида и планировщик маршрутов. Работает без интернета.</p>
+<nav><a href="../ru/">Поддержка</a><a href="../ru/privacy/">Политика конфиденциальности</a><span class="langs"><a href="../es/">Español</a> <a href="../en/">English</a> <span>Русский</span></span></nav>
+<h2>Поддержка</h2>
+<details><summary>Нужен ли интернет?</summary><p>Нет. Сеть и расписание встроены в приложение.</p></details>
+<details><summary>Насколько точно время?</summary><p>Оно считается по расписанию буднего дня: время между станциями, среднее ожидание и пересадки. Данных в реальном времени нет — об изменениях в движении узнавайте из официальных источников Metro de Madrid.</p></details>
+<details><summary>Я нашёл ошибку в данных</summary><p>Напишите нам станцию, линию и что не так. Исправим в следующей версии.</p></details>
+<details><summary>Зачем приложению геопозиция и движение?</summary><p>Чтобы показать ближайшую станцию и во время поездки, которую вы начали, понять, когда вы сели в поезд и вышли. Всё обрабатывается на устройстве. Без этих разрешений приложение тоже работает.</p></details>
+<h2>Связаться</h2>
+<p>Вопросы, ошибки и предложения: <a href="mailto:danila.safronov.dev@gmail.com">danila.safronov.dev@gmail.com</a></p>
+<p class="note">Andén — неофициальное независимое приложение. Оно не связано с Metro de Madrid, S.A. и Consorcio Regional de Transportes de Madrid и не одобрено ими. Данные о сети: Powered by CRTM (данные обработаны).</p>
+</main>
+</body>
+</html>

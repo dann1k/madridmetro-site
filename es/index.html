@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soporte · Andén</title>
+<link rel="icon" href="../icon.png">
+<style>
+:root{--bg:#fff;--fg:#14171f;--muted:#5d6475;--card:#f4f5f8;--accent:#d9152c;--line:#e3e5ea}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1118;--fg:#eef0f5;--muted:#9aa1b2;--card:#181c26;--accent:#ff4d5e;--line:#262b38}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+header img{width:64px;height:64px;border-radius:15px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+h1{font-size:32px;line-height:1.15;margin:0}
+h2{font-size:21px;margin:36px 0 10px}
+p{margin:0 0 12px}
+.tagline{color:var(--muted);margin:0 0 20px}
+nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 28px;font-size:15px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.langs{color:var(--muted)}
+.langs a,.langs span{margin-right:12px}
+.langs span{color:var(--fg);font-weight:600}
+details{background:var(--card);border-radius:14px;padding:14px 18px;margin:0 0 10px}
+summary{font-weight:600;cursor:pointer}
+details p{margin:10px 0 0;color:var(--muted)}
+.note{color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
+</style>
+</head>
+<body>
+<main>
+<header><img src="../icon.png" alt=""><h1>Andén</h1></header>
+<p class="tagline">Plano del metro de Madrid y planificador de rutas. Funciona sin conexión.</p>
+<nav><a href="../es/">Soporte</a><a href="../es/privacy/">Política de privacidad</a><span class="langs"><span>Español</span> <a href="../en/">English</a> <a href="../ru/">Русский</a></span></nav>
+<h2>Soporte</h2>
+<details><summary>¿Necesito internet?</summary><p>No. La red y los horarios van incluidos en la app.</p></details>
+<details><summary>¿Qué tan exactos son los tiempos?</summary><p>Se calculan con el horario de un día laborable: tiempo entre estaciones, espera media y transbordos. No hay datos en tiempo real; consulte las incidencias en los canales oficiales de Metro de Madrid.</p></details>
+<details><summary>He encontrado un error en los datos</summary><p>Escríbanos indicando la estación, la línea y qué está mal. Corregimos los datos en la siguiente versión.</p></details>
+<details><summary>¿Por qué pide la ubicación y el movimiento?</summary><p>Para mostrar la estación más cercana y, durante un viaje que usted inicia, saber cuándo sube y baja del tren. Todo se procesa en el dispositivo. La app funciona igual sin estos permisos.</p></details>
+<h2>Contacto</h2>
+<p>Preguntas, errores y sugerencias: <a href="mailto:danila.safronov.dev@gmail.com">danila.safronov.dev@gmail.com</a></p>
+<p class="note">Andén es una aplicación no oficial e independiente. No está afiliada, patrocinada ni respaldada por Metro de Madrid, S.A. ni por el Consorcio Regional de Transportes de Madrid. Datos de la red: Powered by CRTM (datos procesados).</p>
+</main>
+</body>
+</html>
